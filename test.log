@@ -1,0 +1,12 @@
+DEBUG:root:Die Funktion who_to_greet wurde aufgerufen
+DEBUG:root:person: Chad Type: <class 'str'>
+DEBUG:root:Die Funktion who_to_greet wurde aufgerufen
+DEBUG:root:person: Dan Type: <class 'str'>
+WARNING:root:someone invalid type: <class 'int'>
+ERROR:root:Traceback (most recent call last):
+  File "C:\Users\ms5\Documents\Kurse\2021-02-21-Python\Modul08.py", line 30, in greet_many
+    greet(person)
+  File "C:\Users\ms5\Documents\Kurse\2021-02-21-Python\Modul08.py", line 23, in greet
+    raise BspException("Ungltige eingabe")
+BspException: Ich bin eine Beispielexception: Ungltige eingabe
+

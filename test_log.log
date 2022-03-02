@@ -1,0 +1,19 @@
+test_add (test_helper.Test) ... ok
+test_subtract (test_helper.Test) ... ok
+test_equals (test_modul11.test_sum) ... ok
+test_not_equal (test_modul11.test_sum) ... ok
+test_MyClass (Classes.test_Person.TestMyClass) ... FAIL
+test_return_one (Classes.test_Person.TestMyClass) ... ok
+
+======================================================================
+FAIL: test_MyClass (Classes.test_Person.TestMyClass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\ms5\Documents\Kurse\2021-02-21-Python\Classes\test_Person.py", line 12, in test_MyClass
+    self.assertNotIsInstance(instance, MyClass, "Testfall") # Optionale Nachricht, die angezeigt wird
+AssertionError: <Classes.Person.MyClass object at 0x0000018A37629B70> is an instance of <class 'Classes.Person.MyClass'> : Testfall
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=1)
